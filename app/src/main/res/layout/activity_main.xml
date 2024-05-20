@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/chkOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One"
+        android:checked="false" />
+
+    <CheckBox
+        android:id="@+id/chkTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkOne"
+        android:text="Two"
+        android:checked="false" />
+
+    <CheckBox
+        android:id="@+id/chkThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkTwo"
+        android:text="Three"
+        android:checked="false" />
+
+    <CheckBox
+        android:id="@+id/chkFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkThree"
+        android:text="Four"
+        android:checked="false" />
+
+    <Button
+        android:id="@+id/btnClickGE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkFour"
+        android:text="Show Result"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvResultGE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnClickGE6"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:visibility="invisible"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvResultGE6"
+        android:text="Back"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
